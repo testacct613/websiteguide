@@ -1,6 +1,6 @@
 theme: starter-academic
 title: title field in config.yaml
-baseurl: 'awesomewebsite.netlify.app'
+baseurl: awesomewebsite.netlify.app
 relativeURLs: yes
 cannonifyURLs: yes
 copyright: ''
