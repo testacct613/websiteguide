@@ -1,0 +1,29 @@
+---
+title: plot test 2 - after remove bundling
+author: admin
+date: '2020-12-28'
+slug: plot-test-2-after-remove-bundling
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-12-28T09:37:47-08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+
+
+
+```{r}
+library(ggplot2)
+ggplot(diamonds) + 
+  geom_point(aes(x = carat, y = price, color = color))
+```
+
