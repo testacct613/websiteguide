@@ -1,0 +1,26 @@
+---
+title: plot test - no bundles
+author: admin
+date: '2020-12-28'
+slug: plot-test-no-bundles
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-12-28T10:57:08-08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+
+```{r}
+library(ggplot2)
+ggplot(diamonds) +
+  geom_point(aes(y = price, x = carat, color = color))
+```
+
