@@ -15,10 +15,3 @@ options(
 
 # fix Hugo version
 options(blogdown.hugo.version = "0.79.0")
-options(blogdown.new_bundle = TRUE)
-options(blogdown.author = "Arnie",
-        blogdown.ext = ".Rmd",
-        blogdown.subdir = "blog",
-        blogdown.yaml.empty = TRUE,
-        blogdown.new_bundle = TRUE,
-        blogdown.title_case = TRUE)
