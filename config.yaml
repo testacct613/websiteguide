@@ -1,6 +1,8 @@
 theme: starter-academic
-title: Academic
+title: title field in config.yaml
 baseurl: ''
+relativeURLs: yes
+cannonifyURLs: yes
 copyright: ''
 enableGitInfo: no
 defaultContentLanguage: en
