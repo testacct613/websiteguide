@@ -1,0 +1,26 @@
+---
+title: Plottest
+author: Arnie
+date: '2020-12-28'
+slug: plottest
+categories: []
+tags: []
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2020-12-28T09:14:37-08:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+<script src="{{< blogdown/postref >}}index.en_files/header-attrs/header-attrs.js"></script>
+
+
+<pre class="r"><code>library(ggplot2)
+ggplot(diamonds) + 
+  geom_point(aes(x = carat, y = price, color = color))</code></pre>
+<p><img src="{{< blogdown/postref >}}index.en_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
